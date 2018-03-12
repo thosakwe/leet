@@ -1,3 +1,6 @@
+%token COLON
+%token COMMA
+%token EXCLAMATION
 %token QUESTION
 %token L_BRACKET
 %token R_BRACKET
@@ -5,7 +8,6 @@
 %token R_CURLY
 %token L_PAREN
 %token R_PAREN
-%token COMMA
 %token <string> STRING
 %token <int>HEX
 %token <string>ID
